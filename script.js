@@ -1,3 +1,11 @@
+// Write password 
+function writePassword() {
+    var password = generatePassword();
+    var passwordText = document.querySelector("#password");
+    
+    passwordText.value = password;
+    }
+
 // Assignment code here
 document.querySelector("#generate").addEventListener("click", writePassword);
 
